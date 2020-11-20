@@ -1,0 +1,23 @@
+#sheetingMain {
+    width: 200px;
+    display: inline;
+    float: right;
+}
+
+.container {
+    margin: 0 auto;
+    width: 25%;
+    margin-top: 10%;
+}
+
+.row {
+    margin: 5%;
+}
+
+.col {
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+}
