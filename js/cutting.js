@@ -61,7 +61,7 @@ var myChart1 = new Chart(ctx, {
     labels: labels,
     datasets: [
       {
-        label: data[8].note,
+        label: data[12].note,
         data: a,
         backgroundColor: "rgba(255,255,255,0)",
         borderColor: "#01ABAA",
@@ -69,7 +69,7 @@ var myChart1 = new Chart(ctx, {
         borderWidth: 5,
       },
       {
-        label: data[9].note,
+        label: data[13].note,
         data: p,
         backgroundColor: "rgba(255,255,255,0)",
         borderColor: "#e5e338",
@@ -77,7 +77,7 @@ var myChart1 = new Chart(ctx, {
         borderWidth: 5,
       },
       {
-        label: data[10].note,
+        label: data[14].note,
         data: q,
         backgroundColor: "rgba(255,255,255,0)",
         borderColor: "#e7dfdd",
@@ -85,7 +85,7 @@ var myChart1 = new Chart(ctx, {
         borderWidth: 5,
       },
       {
-        label: data[11].note,
+        label: data[15].note,
         data: o,
         backgroundColor: "rgba(255,255,255,0)",
         borderColor: "#b82601",
