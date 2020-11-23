@@ -29,27 +29,30 @@ var labels = [];
 
 
 for (var i = 1; i < 13; i++) {
-  availability.push(Object.entries(data[12])[i][1]);
-  productivity.push(Object.entries(data[13])[i][1]);
-  quality.push(Object.entries(data[14])[i][1]);
-  oee.push(Object.entries(data[15])[i][1]);
-  labels.push(Object.entries(data[16])[i][1]);
+  availability.push(Object.entries(data[12])[i][1])
+  productivity.push(Object.entries(data[13])[i][1])
+  quality.push(Object.entries(data[14])[i][1])
+  oee.push(Object.entries(data[15])[i][1])
+  labels.push(Object.entries(data[16])[i][1])
 }
 
-var a = availability.map(function (x) {
-  return Number(x * 100).toFixed(2);
-});
-var p = productivity.map(function (x) {
-  return Number(x * 100).toFixed(2);
-});
-var q = quality.map(function (x) {
-  return Number(x * 100).toFixed(2);
-});
-var o = oee.map(function (x) {
-  return Number(x * 100).toFixed(2);
-});
+var a = availability.map(function(x) {
+  return Number(x * 100).toFixed(2)
+})
+var p = productivity.map(function(x) {
+  return Number(x * 100).toFixed(2)
+})
+var q = quality.map(function(x) {
+  return Number(x * 100).toFixed(2)
+})
+var o = oee.map(function(x) {
+  return Number(x * 100).toFixed(2)
+})
 
-console.log(a);
+console.log(a)
+
+
+
 
 var ctx = document.getElementById("myChart1").getContext("2d");
 var myChart1 = new Chart(ctx, {
@@ -88,7 +91,8 @@ var myChart1 = new Chart(ctx, {
         borderColor: "#b82601",
         lineTension: 0,
         borderWidth: 5,
-      },
+      }
+      
     ],
   },
   options: {
