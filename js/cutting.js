@@ -27,13 +27,6 @@ var quality = [];
 var oee = [];
 var labels = [];
 
-for (var i = 1; i < 13; i++) {
-  availability.push(Object.entries(data[8])[i][1]);
-  productivity.push(Object.entries(data[9])[i][1]);
-  quality.push(Object.entries(data[10])[i][1]);
-  oee.push(Object.entries(data[11])[i][1]);
-  labels.push(Object.entries(data[16])[i][1]);
-}
 
 for (var i = 1; i < 13; i++) {
   availability.push(Object.entries(data[12])[i][1]);
